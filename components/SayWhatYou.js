@@ -8,18 +8,20 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 const SayWhatYou = () => {
     return (
-        <div className="justify-center space-y-[5rem] pb-[3rem] gap-[15vw] items-start 
+      <div className="flex justify-center">
+        <div className="justify-center w-[90%]
+        space-y-[5rem] pb-[3rem] gap-[15vw] items-start 
         md:flex md:px-11 md:flex-row-reverse">
-      <div>
+      <div className="md:w-[20rem]">
         <TextProp
           title={`Say what
           you feel`}
-          titleclassN={`text-[6vw] pb-5 w-[27rem] md:w-[22rem] md:text-[3rem]`}
+          titleclassN={`text-[6vw] pb-5 md:text-[3rem]`}
           details={`Express yourself without words. Use stickers and GIFs or 
           share everyday moments on Status. Record a voice message for a quick 
           hello or a longer story.`}
 
-          detailclassN={`py-8 text-[3.4vw] w-[27rem] md:w-[22rem] 
+          detailclassN={`py-8 text-[3.4vw]
           md:text-[2rem]`}  
           tdivclassN={`flex flex-col items-center justify-center`}  
         />
@@ -33,10 +35,11 @@ const SayWhatYou = () => {
            iht={900}
            iwd={900}
            ialt={`phone video call`}    
-           iclassN={`object-contain w-[70%] rounded-xl 
-            shadow-lg shadow-black md:w-[20rem]`}      
+           iclassN={`object-contain rounded-xl 
+            shadow-lg shadow-black w-[20rem]`}      
            idivclassN={`flex justify-center`}  
         />
+      </div>
       </div>
     );
 }

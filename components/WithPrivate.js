@@ -5,7 +5,7 @@ import TextProp from "./props/TextProp";
 
 const WithPrivate = () => {
     return (
-      <div>
+      <div className="flex justify-center">
         <TextProp
           tdivclassN={`flex justify-center py-[12vw]`}
           details={`With private messaging and calling, you can be yourself,

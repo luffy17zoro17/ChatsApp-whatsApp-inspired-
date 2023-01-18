@@ -56,10 +56,11 @@ const Navbar = () => {
              />
 
              <div className='border flex items-center shadow-inner shadow-black
-               p-3 gap-[1vw] border-r-[1rem] rounded-full bg-violet-400'>
+               p-3 gap-[1vw] border-r-[1rem] rounded-full bg-violet-400
+               hover:text-cyan-600'>
              <TextProp
                title={"Download"}
-               titleclassN={`hover:text-cyan-400 cursor-pointer`}
+               titleclassN={`cursor-pointer`}
              />
              <IconProp
                icon={<DownloadForOfflineIcon/>}

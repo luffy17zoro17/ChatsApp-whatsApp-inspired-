@@ -32,15 +32,16 @@ const MessagePrivate = () => {
            details={`Simple, reliable, private messaging
             and calling for free*, available all over the world.`} 
            detailclassN={`pl-4 relative z-10 text-black 
-            text-[1.2vw] text-[1rem] py-5 md:text-[1.3rem] 
+            text-[3vw] py-5 md:text-[1.3rem] 
             lg:text-[1.6rem]`}  
         />
          <div className="bg-white opacity-70
          top-0 z-0 w-full h-full absolute rounded-lg"/>
 
             <div className='border flex items-center shadow-inner shadow-black
-               ml-4 relative z-10 p-3 gap-[1vw] border-r-[1rem] w-[9rem]
-               rounded-full bg-violet-400 md:w-[10rem]'>
+               ml-4 relative z-10 p-2 pl-3 gap-[1vw] border-r-[1rem] w-[9rem]
+               rounded-full bg-violet-400 hover:text-cyan-600 cursor-pointer
+                md:w-[10rem]'>
              <TextProp
                title={"Download"}
              />

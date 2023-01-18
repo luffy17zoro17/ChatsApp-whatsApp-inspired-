@@ -9,19 +9,19 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 const SpeakFreely = () => {
     return (
-       
-          <div className="py-[7rem] md:py-[9rem] bg-blue-800 space-y-[5rem]
-            text-white justify-center gap-[15vw]
+          <div className="flex justify-center w-full bg-blue-800">
+          <div className="py-[7rem] md:py-[9rem] space-y-[5rem]
+            text-white justify-center gap-[15vw] w-[90%]
             md:flex md:px-11 md:flex-row-reverse md:space-y-0">
-          <div>
+          <div className="md:w-[20rem]">
             <TextProp
               title={`Speak freely`}
-              titleclassN={`text-[6vw] pb-5 w-[27rem] md:w-[22rem] md:text-[3rem]`}
+              titleclassN={`text-[6vw] pb-5 md:text-[3rem]`}
               details={`With end-to-end encryption, your personal messages and
                calls are secured. Only you and the person youre talking to can 
                read or listen to them, and nobody in between, not even ChatsApp`}
 
-              detailclassN={`py-8 text-[3.4vw] w-[27rem] md:w-[22rem] 
+              detailclassN={`py-8 text-[3.4vw]
               md:text-[2rem]`}  
               tdivclassN={`flex flex-col items-center justify-center`}  
             />
@@ -36,10 +36,11 @@ const SpeakFreely = () => {
                iht={900}
                iwd={900}
                ialt={`phone video call`}    
-               iclassN={`object-contain w-[70%] shadow-lg shadow-black
-                rounded-xl md:w-[20rem]`}      
+               iclassN={`object-contain shadow-lg shadow-black
+                rounded-xl w-[20rem]`}      
                idivclassN={`flex justify-center`}  
             />
+          </div>
           </div>
       
     );

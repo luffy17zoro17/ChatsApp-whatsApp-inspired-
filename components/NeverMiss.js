@@ -6,18 +6,19 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 const NeverMiss = () => {
     return (
-       
-          <div className="justify-center space-y-[5rem] pb-[7rem] gap-[15vw] items-start 
+        <div className="flex justify-center">
+          <div className="justify-center space-y-[5rem] pb-[7rem] gap-[15vw] 
+            w-[90%] items-start 
             md:flex md:px-11">
-          <div>
+          <div className="md:w-[20rem]">
             <TextProp
               title={`Never miss a moment with voice and video calls`}
-              titleclassN={`text-[6vw] pb-5 w-[27rem] md:w-[22rem] md:text-[3rem]`}
+              titleclassN={`text-[6vw] pb-5 md:text-[3rem]`}
               details={`From a group call to classmates to a 
                  quick call with mom, feels like youre in the same
                   room with voice and video calls.`}
 
-              detailclassN={`py-8 text-[3.4vw] w-[27rem] md:w-[22rem] 
+              detailclassN={`py-8 text-[3.4vw]
               md:text-[2rem]`}  
               tdivclassN={`flex flex-col items-center justify-center`}  
             />
@@ -31,11 +32,12 @@ const NeverMiss = () => {
                iht={900}
                iwd={900}
                ialt={`phone video call`}    
-               iclassN={`object-contain w-[70%]
-                shadow-lg shadow-black rounded-xl md:w-[20rem]`}      
+               iclassN={`object-contain 
+                shadow-lg shadow-black rounded-xl w-[20rem]`}      
                idivclassN={`flex justify-center`}  
             />
           </div>
+         </div> 
        
     );
 }
