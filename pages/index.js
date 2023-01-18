@@ -23,7 +23,7 @@ export default function Home() {
       <header>
          <Navbar/>
       </header>
-      <main className='bg-yellow-300 pt-[9rem] text-black z-10'>
+      <main className='bg-gradient-to-r from-orange-300 via-yellow-200 to-yellow-300 pt-[9rem] text-black z-10'>
          <MessagePrivate/>
          <SpeakFreely/>
          <BottomHalf/>

@@ -9,7 +9,8 @@ import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 const SpeakFreely = () => {
     return (
-          <div className="flex justify-center w-full bg-blue-800">
+          <div className="flex justify-center w-full 
+          bg-gradient-to-r from-indigo-800 via-blue-700 to-pink-500">
           <div className="py-[7rem] md:py-[9rem] space-y-[5rem]
             text-white justify-center gap-[15vw] w-[90%]
             md:flex md:px-11 md:flex-row-reverse md:space-y-0">

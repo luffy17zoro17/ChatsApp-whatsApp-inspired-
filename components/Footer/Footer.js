@@ -20,7 +20,7 @@ const Footer = () => {
           pr-[6rem] justify-between">
           <div className='flex items-center gap-4 
             pt-[14rem] 
-            text-xl text-violet-500 font-bold
+            text-lg text-violet-500 font-bold
              lg:pt-0'>
             <IconProp 
               icon={<CallIcon/>} 
@@ -48,8 +48,8 @@ const Footer = () => {
           </div>
         </div>   
 
-        <div className="text-xl flex flex-col gap-[6rem]
-           pt-[5rem] lg:pt-0 lg:flex-row lg:gap-[4rem] xl:gap-[6rem]">
+        <div className="text-md flex flex-col gap-[6rem]
+           pt-[5rem] lg:pt-0 md:text-xl lg:flex-row lg:gap-[4rem] xl:gap-[6rem]">
           <div className="flex gap-[8rem] lg:gap-[4rem] xl:gap-[6rem]">
           <ul className="space-y-5">
             <li className="font-light text-sm">What we do</li>
