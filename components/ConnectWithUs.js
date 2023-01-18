@@ -11,14 +11,14 @@ import ConnectProp from "./ConnectWithUs/ConnectProp";
 const ConnectWithUs = () => {
     return (
        <div className="flex 
-         bg-gradient-to-r from-indigo-600 via-blue-400 to-blue-300
+         bg-gradient-to-r from-transparent via-blue-200 to-blue-300
          overflow-x-hidden py-[6rem] pb-[7rem]
           hover:overflow-x-auto
           text-[3vw] md:text-[1.5rem]">
          
           <TextProp
               title={`Connect with us`}
-              titleclassN={`absolute z-10 pl-7 text-white
+              titleclassN={`absolute z-10 pl-7 text-blue-500
               text-[6vw] pb-5 md:text-[3rem] lg:pl-[5vw]`}
           />
 
