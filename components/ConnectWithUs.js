@@ -11,7 +11,7 @@ import ConnectProp from "./ConnectWithUs/ConnectProp";
 const ConnectWithUs = () => {
     return (
        <div className="flex 
-         bg-gradient-to-r from-indigo-300 via-blue-400 to-blue-300
+         bg-gradient-to-r from-indigo-400 via-blue-400 to-blue-300
          overflow-x-hidden py-[6rem] pb-[7rem]
           hover:overflow-x-auto
           text-[3vw] md:text-[1.5rem]">

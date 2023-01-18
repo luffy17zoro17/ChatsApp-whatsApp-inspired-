@@ -48,18 +48,18 @@ const Footer = () => {
           </div>
         </div>   
 
-        <div className="text-md flex flex-col gap-[6rem]
+        <div className="text-sm flex flex-col gap-[6rem]
            pt-[5rem] lg:pt-0 md:text-xl lg:flex-row lg:gap-[4rem] xl:gap-[6rem]">
           <div className="flex gap-[8rem] lg:gap-[4rem] xl:gap-[6rem]">
           <ul className="space-y-5">
-            <li className="font-light text-sm">What we do</li>
+            <li className="font-light text-[0.8rem] md:text-sm">What we do</li>
             <li>Features</li>
             <li>Blog</li>
             <li>Stories</li>
             <li>For Business</li>
           </ul>
           <ul className="space-y-5">
-            <li className="font-light text-sm">Who we are</li>
+            <li className="font-light text-[0.8rem] md:text-sm">Who we are</li>
             <li>About us</li>
             <li>Careers</li>
             <li>Brand Center</li>
@@ -69,14 +69,14 @@ const Footer = () => {
           
           <div className="flex gap-[7rem] lg:gap-[4rem] xl:gap-[6rem]">
           <ul className="space-y-5">
-            <li className="font-light text-sm">Use ChatsApp</li>
+            <li className="font-light text-[0.8rem] md:text-sm">Use ChatsApp</li>
             <li>Android</li>
             <li>iphone</li>
             <li>Mac/PC</li>
             <li>ChatsApp Web</li>
           </ul>
           <ul className="space-y-5">
-            <li className="font-light text-sm">Need help?</li>
+            <li className="font-light text-[0.8rem] md:text-sm">Need help?</li>
             <li>Contact Us</li>
             <li>Help Center</li>
             <li>Coronavirus</li>
