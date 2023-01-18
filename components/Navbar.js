@@ -34,7 +34,7 @@ const CenterItems = [
 const Navbar = () => {
     return (
         <div className='fixed top-0 flex items-center
-           h-[11rem] w-full z-20 pb-[5rem] 
+           h-[10rem] w-full z-20 pb-[5rem]
            bg-gradient-to-b from-orange-600 via-orange-300 to-transparent'>
           <div className='flex items-center gap-4 
            text-xl lg:text-2xl text-violet-500 font-bold pl-8'>
