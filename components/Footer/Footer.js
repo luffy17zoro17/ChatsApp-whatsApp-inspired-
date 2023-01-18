@@ -3,6 +3,7 @@ import TextProp from "../props/TextProp";
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import CallIcon from '@mui/icons-material/Call';
 
+import Link from "next/link";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -85,26 +86,32 @@ const Footer = () => {
        </div>
 
        <hr className="border-by mt-[5rem] w-[60vw]"/> 
-       <div className="flex items-center py-[5rem]
-        lg:space-x-[2vw] xl:space-x-[8vw]">
+       <div className="flex px-9 items-center py-[5rem]
+         sm:px-0 lg:space-x-[2vw] xl:space-x-[8vw]">
           
           <div className="font-light flex flex-col gap-[3vw]
            lg:flex-row lg:text-sm">
             <div className="lg:w-[9rem]">
               2023 © ChatsApp LLC</div>
             <div className="lg:w-[8rem]">Terms of Service<br/>
-            <div className="text-sm font-bold text-yellow-300">[-Created by Thomas Mathew]</div></div>
+            <div className="text-sm font-bold text-yellow-300">[-Created by<br/>
+             <Link className="hover:text-red-400 hover:underline" href={`https://www.linkedin.com/in/thomas-mathew-b26b87253/`}>
+              Thomas Mathew</Link>]</div></div>
           </div>
 
           <div className="flex gap-[2vw] absolute left-0
-           w-full justify-center top-[12rem] lg:static">
-             <IconProp icoclassN={`border rounded-full p-3`} 
+           w-full justify-center top-[12rem] gap-6 lg:static">
+             <IconProp icoclassN={`border rounded-full p-3
+                  text-blue-400 cursor-pointer`} 
                   icon={<TwitterIcon/>}/>
-             <IconProp icoclassN={`border rounded-full p-3`} 
+             <IconProp icoclassN={`border rounded-full p-3
+                  text-red-500 cursor-pointer`} 
                   icon={<YouTubeIcon/>}/>
-             <IconProp icoclassN={`border rounded-full p-3`}
+             <IconProp icoclassN={`border rounded-full p-3
+                 text-pink-400 cursor-pointer`}
                   icon={<InstagramIcon/>}/>
-             <IconProp icoclassN={`border rounded-full p-3`} 
+             <IconProp icoclassN={`border rounded-full p-3
+                   text-blue-600 cursor-pointer`} 
                   icon={<FacebookIcon/>}/>
           </div>
 

@@ -31,7 +31,7 @@ const ConnectProp = ({title,details}) => {
                  `} 
            />
            <h2 className="py-2 mb-6 shadow-black shadow rounded-full
-            text-center w-[9rem]
+            text-center w-[7rem] md:w-[9rem]
              ">Read More</h2>
         </div>
 
