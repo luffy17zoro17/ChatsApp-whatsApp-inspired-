@@ -90,7 +90,8 @@ const Footer = () => {
          sm:px-0 lg:space-x-[2vw] xl:space-x-[8vw]">
           
           <div className="font-light flex flex-col gap-[3vw]
-           lg:flex-row lg:text-sm">
+          text-[0.8rem] md:text-sm
+           lg:flex-row">
             <div className="lg:w-[9rem]">
               2023 © ChatsApp LLC</div>
             <div className="lg:w-[8rem]">Terms of Service<br/>
