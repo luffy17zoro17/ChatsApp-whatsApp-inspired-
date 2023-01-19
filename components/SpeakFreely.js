@@ -39,7 +39,7 @@ const SpeakFreely = () => {
                iwd={900}
                ialt={`phone video call`}    
                iclassN={`object-contain shadow-lg shadow-black
-                rounded-xl w-[20rem]`}      
+                rounded-xl bg-green-200 w-[20rem]`}      
                idivclassN={`flex justify-center`}  
             />
           </div>

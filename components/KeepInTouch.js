@@ -33,7 +33,8 @@ const KeepInTouch = () => {
                iht={900}
                iwd={900}
                ialt={`phone video call`}    
-               iclassN={`object-contain w-[70%] rounded-xl shadow-lg shadow-black w-[20rem]`}      
+               iclassN={`object-contain w-[70%] bg-purple-200
+                rounded-xl shadow-lg shadow-black w-[20rem]`}      
                idivclassN={`flex justify-center`}  
             />
           </div>
