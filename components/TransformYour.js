@@ -15,7 +15,7 @@ const TransformYour = () => {
         <TextProp
           title={`Transform
           your business`}
-          titleclassN={`text-[6vw] pb-5 
+          titleclassN={`font-medium text-[6vw] pb-5 
             md:text-[3rem]`}
           details={`ChatsApp Business helps you reach your customers 
           globally to deliver compelling experiences at scale. Showcase your 
@@ -26,9 +26,9 @@ const TransformYour = () => {
           md:text-[2rem]`}  
           tdivclassN={`flex flex-col items-center justify-center`}  
         />
-        <div className="flex justify-center underline underline-offset-[0.4rem]
-         text-[3.4vw] gap-4 pb-8 decoration-red-500
-          md:text-[2rem] md:underline-offset-[0.8rem]-">Learn more 
+        <div className="flex justify-center underline underline-offset-[0.7vw]
+         text-[3.4vw] gap-2 pb-8 decoration-red-500 decoration-[0.2rem]
+          md:text-[2rem] md:gap-4">Learn more 
           <IconProp icon={<DoubleArrowIcon className="md:text-[2.5rem]"/>}/></div>
         </div>
         <ImageProp

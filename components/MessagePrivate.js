@@ -27,7 +27,7 @@ const MessagePrivate = () => {
         <div className="absolute p-4 top-[11vw] left-[12vw] w-[60vw]">
         <TextProp
            title={`Message Privately`}
-           titleclassN={`relative
+           titleclassN={`relative font-medium
             text-[4vw] z-10 pl-4`}
            details={`Simple, reliable, private messaging
             and calling for free*, available all over the world.`} 

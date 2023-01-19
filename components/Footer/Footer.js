@@ -35,7 +35,7 @@ const Footer = () => {
              left-0 flex justify-center lg:static">
           <div className='
                border flex items-center shadow-inner shadow-black
-               w-[10rem] text-black 
+                text-black 
                p-3 gap-[1vw] border-r-[1rem] rounded-full bg-violet-400
                md:static'>
              <TextProp

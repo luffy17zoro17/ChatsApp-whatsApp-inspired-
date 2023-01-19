@@ -18,7 +18,7 @@ const ConnectWithUs = () => {
          
           <TextProp
               title={`Connect with us`}
-              titleclassN={`absolute z-10 pl-7 text-blue-500
+              titleclassN={`font-medium absolute z-10 pl-7 text-blue-500
               text-[6vw] pb-5 md:text-[3rem] lg:pl-[5vw]`}
           />
 

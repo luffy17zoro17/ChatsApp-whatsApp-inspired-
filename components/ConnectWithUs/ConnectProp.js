@@ -25,7 +25,7 @@ const ConnectProp = ({title,details}) => {
         </div>  
            <TextProp
               title={title}
-              titleclassN={`pb-5 text-[4.3vw] md:text-[2rem]`}
+              titleclassN={`font-medium pb-5 text-[4.3vw] md:text-[2rem]`}
               details={details}
               detailclassN={`pb-8
                  `} 
