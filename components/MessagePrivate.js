@@ -16,7 +16,7 @@ const MessagePrivate = () => {
         <ImageProp
            idivclassN={"px-5"}
            iclassN={`object-contain     
-           rounded-r-full shadow-lg shadow-black
+           rounded-r-full shadow-md shadow-black
            lg:px-0 lg:object-cover lg:h-[50rem]`}
            isrc={`https://images.unsplash.com/photo-1508205065970-cad01cebebb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80`}
            iht={1700}

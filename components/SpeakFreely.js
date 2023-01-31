@@ -38,7 +38,7 @@ const SpeakFreely = () => {
                iht={900}
                iwd={900}
                ialt={`phone video call`}    
-               iclassN={`object-contain shadow-lg shadow-black
+               iclassN={`object-contain shadow-md shadow-black
                bg-gradient-to-r from-gray-500 via-gray-200 to-gray-400
                 rounded-xl bg-gray-400 w-[20rem]`}      
                idivclassN={`flex justify-center`}  

@@ -33,7 +33,7 @@ const NeverMiss = () => {
                iwd={900}
                ialt={`phone video call`}    
                iclassN={`object-contain 
-                shadow-lg shadow-black rounded-xl w-[20rem]`}      
+                shadow-md shadow-black rounded-xl w-[20rem]`}      
                idivclassN={`flex justify-center`}  
             />
           </div>

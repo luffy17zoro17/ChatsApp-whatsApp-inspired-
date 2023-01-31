@@ -36,7 +36,7 @@ const SayWhatYou = () => {
            iwd={900}
            ialt={`phone video call`}    
            iclassN={`object-contain rounded-xl 
-            shadow-lg shadow-black w-[20rem]`}      
+            shadow-md shadow-black w-[20rem]`}      
            idivclassN={`flex justify-center`}  
         />
       </div>

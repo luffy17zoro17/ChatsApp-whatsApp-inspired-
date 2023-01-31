@@ -35,7 +35,7 @@ const KeepInTouch = () => {
                ialt={`phone video call`}    
                iclassN={`object-contain w-[70%]
                bg-gradient-to-r from-red-100 via-pink-200 to-pink-300
-                rounded-xl shadow-lg shadow-black w-[20rem]`}      
+                rounded-xl shadow-md shadow-black w-[20rem]`}      
                idivclassN={`flex justify-center`}  
             />
           </div>

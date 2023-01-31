@@ -25,8 +25,8 @@ const Footer = () => {
             <IconProp 
               icon={<CallIcon/>} 
               icoclassN="border-l-[1rem] shadow shadow-black 
-                  rounded-l-full border-violet-500 p-2 bg-white
-                            text-violet-600 border-y-[0.6rem]" 
+                  rounded-l-full border-violet-500 p-1 bg-white
+                            text-violet-600 border-y-[0.3rem]" 
             />
             <TextProp title={"ChatsApp"}/>
           </div>  
