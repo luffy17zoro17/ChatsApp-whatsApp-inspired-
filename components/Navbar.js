@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className='fixed top-0 flex items-center
             w-full z-20 h-[5rem] rounded-b-xl
            bg-gradient-to-b from-orange-600 via-yellow-400 to-yellow-200
-            shadow-black shadow md:absolute lg:fixed'>
+            shadow-black shadow md:absolute xl:fixed'>
           <div className='flex items-center gap-4 
            text-xl lg:text-2xl text-violet-500 font-bold pl-8'>
             <IconProp 
