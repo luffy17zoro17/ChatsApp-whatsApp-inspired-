@@ -12,9 +12,11 @@ const ConnectWithUs = () => {
     return (
        <div className="flex 
          bg-gradient-to-r from-transparent via-gray-200 to-blue-300
-         overflow-x-hidden py-[6rem] pb-[7rem]
-          hover:overflow-x-auto
-          text-[3vw] md:text-[1.5rem]">
+         overflow-x-scroll py-[6rem] pb-[7rem]
+          
+          text-[3vw] md:text-[1.5rem]
+          lg:overflow-x-hidden
+          lg:hover:overflow-x-scroll">
          
           <TextProp
               title={`Connect with us`}
